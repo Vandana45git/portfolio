@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(00, 00, 38);
+    font-family: Roboto Condended;
+    color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 60px;
+   align-items: center;
+    position: sticky;
+    border-radius: 10px;
+    width: 100%;
+    
+ 
+}
+#navbar ul{
+  display: flex;
+  justify-content: center;
+   
+}
+#navbar ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+#navbar ul li a{ 
+    text-decoration: none;
+    color: aliceblue;
+}
+#navbar ul li a:hover{
+    color: rgb(0, 255, 47);
+    background-color: white;
+    transform: scale(1.5);
+    transition: 0.3;
+    filter: drop-shadow(0 0 10px white);
+    border-radius: 30px;
+    font-size: 20px;
+}
+.logo{
+    font-size: xx-large;
+   
+}
+#home{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height:83vh ;
+}
+#home >div{
+    width: 33%;
+}
+.left{
+  margin-top: 90px;
+    font-size: 50px;
+    text-align: center;
+}
+.name{
+    color: aqua;
+}
+.div1{
+    text-align: center;
+    color: red;  
+}
+.right img{
+  width: 90%; 
+  margin-top: 50px; 
+}
+.button1{
+ padding: 10px;
+ background-color: rgb(175, 240, 218);
+ border-radius: 20px;
+ font-weight: bold;
+ font-size: 20px;
+}
+.button1:hover{
+    color: rgb(0, 255, 47);
+    background-color: rgb(107, 112, 174);
+    transform: scale(1.2);
+    transition: 0.3; 
+}
+.primary{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#about{
+    display: flex;
+     justify-content: space-around; 
+     height: 100vh;
+}
+.content{
+  
+    width: 60vw;
+   padding-top: 40px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.para1{
+    font-size: 25px;
+    color: rgb(197, 197, 237);
+}
+.photo{
+    
+    width: 40vw;
+    padding-top: 0%;
+}
+.photo image{
+    width: 95%; 
+   padding-bottom: 200px;
+   margin-bottom: 100px;
+}
+.school{
+    color: aqua;
+    font-size: 40px;
+}
+.tritary1{
+    color: rgb(234, 59, 59);
+    font-size: 30px;
+}
+.box{
+    font-size: 20px;
+}
+#skills{
+    
+    height: 100vh;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+.secondary{
+    color: aqua;
+    text-shadow: 6px 6px 6px red;
+    font-size: 26px;
+}
+.tritary{
+    color: rgb(234, 59, 59);
+    font-size: 22px;
+}
+.para{
+    font-size: 20px;
+}
+#project{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    gap: 15px;
+   
+}
+.project1 img{
+    height: 60vh;
+    width: 32vw;
+border-radius: 20px;
+}
+.project2 img{
+    height: 60vh;
+    width: 32vw;
+border-radius: 20px;
+}
+.project3 img{
+    height: 60vh;
+    width: 32vw;
+border-radius: 20px;
+}
+.paragraph{
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: aqua;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+#contact{
+    margin-top: 20px;
+    height: 80vh;
+}
+.contact-left{
+    flex-basis: 35%;
+  
+}
+.contact-right{
+    flex-basis: 60%;
+    
+}
+.icons{
+    margin-top: 30px;
+}
+.icons img{
+    width: 100px;
+    height: 70px;
+}
+.contact-right form{
+    width: 100%;
+} 
+form input, form textarea{
+width: 100%;
+border: 0px;
+outline: none;
+background: #262626;
+padding: 15px;
+margin: 15px 0;
+color: #fff;
+font-size: 19px;
+border-radius: 10px;
+}
+form .btn2{
+    padding: 15px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 9px 20px;
+    height: 35px;
+}
